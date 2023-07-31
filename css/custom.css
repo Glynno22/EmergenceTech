@@ -1,0 +1,19 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.title{
+    text-align: center;
+    padding-bottom: 2rem;
+    position: center;
+
+
+}
+.title h1{
+
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+	letter-spacing: 0;
+	color: #07528d;
+	font-weight: normal;
+	line-height: 190% !important;
+	
+}
