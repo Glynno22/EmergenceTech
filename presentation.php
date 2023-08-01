@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
+    
+    <?php include "style.php";?>
+
 </head>
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
     <?php @include "header.php" ?>

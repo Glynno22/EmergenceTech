@@ -32,6 +32,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+	<?php include "style.php";?>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -197,34 +199,7 @@
                 
 	<!-- section -->
     
-    <!-- <div class="section margin-top_50 silver_bg">
-        <div class="container">
-            <div class="row">
-			    <div class="col-md-6">
-                    <div class="full float-right_img">
-                        <img src="images/dossierc.png" alt="#" />
-                    </div>
-                </div>
-                <div class="col-md-6 layout_padding_2">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <h2><span>Apply for Admission</h2>
-                        </div>
-						<div class="full">
-						  <p>Le Master MIAGE est acessible par les 
-                            etudiannts aussi bien de la Licence Informatique ou de 
-                            toute autre formation equivalente basée sur l'informatique, les systemesd'information et
-                            la Gestion des organisations,les mathematiques et la physique.
-                         </p>
-						</div>
-						<div class="full">
-						   <a class="hvr-radial-out button-theme" href="#">Apply</a>
-						</div>
-                    </div>
-                </div>
-			</div>
-        </div>
-    </div> -->
+    
     <div class="section margin-top_50 mb-5 ">
         <div class="container">
             
@@ -237,7 +212,7 @@
                     <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Développement d'applications Web & Mobile</h5>
+                            <h5 class="card-title" id="tire">Développement d'applications Web & Mobile</h5>
                             <p class="card-text">Nous créons des applications Web & Mobile sur mesure pour répondre à vos besoins.</p>
                             <div class="full ml-5" mb->
 			                    <a class="hvr-radial-out button-theme" href="presentation.php#pwm">Details</a>
@@ -248,7 +223,7 @@
                     <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Développement de Site Web</h5>
+                        <h5 class="card-title" id="tire">Développement de Site Web</h5>
                         <p class="card-text">Nous créons des site Web responsive pour accroître votre visibilité en ligne .</p>
                         <div class="full ml-5" mb->
 			                <a class="hvr-radial-out button-theme" href="presentation.php#psw">Details</a>
@@ -259,7 +234,7 @@
                     <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Graphisme</h5>
+                        <h5 class="card-title" id="tire">Graphisme</h5>
                         <p class="card-text">Notre équipe de graphistes talentueux réalise des designs créatifs et percutants.</p>
                         <div class="full ml-5" mb->
 			                <a class="hvr-radial-out button-theme" href="presentation.php#graphe">Details</a>
@@ -270,7 +245,7 @@
                     <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Community Management</h5>
+                        <h5 class="card-title" id="tire">Community Management</h5>
                         <p class="card-text">Nous gérons vos réseaux sociaux pour accroître votre visibilité et votre engagement.</p>
                         <div class="full ml-5" mb->
 			                <a class="hvr-radial-out button-theme" href="presentation.php#ComManage">Details</a>
