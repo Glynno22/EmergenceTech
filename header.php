@@ -12,8 +12,6 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.php">Accueil</a></li>
                         <li><a class="nav-link" href="presentation.php">Presentation & Services</a></li>
-                        <!-- <li><a class="nav-link" href="Services.php"></a></li> -->
-                        <!-- <li><a class="nav-link" href="Programme.php">Programme</a></li> -->
                         <li><a class="nav-link" href="propos.php">À Propos</a></li>
                         <li><a class="nav-link" href="contact.php">Contactez nous</a></li>
                         <li><a class="nav-link" href="connect.php">Connexion</a></li>

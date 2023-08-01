@@ -104,7 +104,7 @@
          </div>
          <div class="col-md-6">
              <div class="full">
-                 <img src="image/" alt="image">
+                 <img src="images/statutEmergence.webp" alt="image">
              </div>
          </div>
      </div>
