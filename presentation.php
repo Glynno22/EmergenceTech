@@ -145,7 +145,6 @@
                     
                     <div class="full">
                     <p>
-                        Développement d'applications Web et Mobile :<br>
                         Notre équipe talentueuse de développeurs expérimentés crée des applications Web et Mobile sur 
                         mesure pour répondre aux exigences uniques de votre entreprise. Que vous ayez besoin d'une 
                         application interne pour améliorer l'efficacité de vos processus ou d'une application mobile 
@@ -166,7 +165,7 @@
                 </div>
             </div>
             <div class="full ml-5 mb-5">
-			   <a class="hvr-radial-out button-theme" href="devieAPKWeb&Mobile.php">Apply</a>
+			   <a class="hvr-radial-out button-theme" href="demandeDevie.php">Apply</a>
 			</div>
         </div>
 
@@ -199,7 +198,7 @@
                 </div>
             </div>
             <div class="full ml-5 mb-5">
-			   <a class="hvr-radial-out button-theme" href="">Apply</a>
+			   <a class="hvr-radial-out button-theme" href="demandeDevie.php">Apply</a>
 			</div>
         </div>
 
@@ -230,7 +229,7 @@
                 </div>
             </div>
             <div class="full ml-5 mb-5">
-			   <a class="hvr-radial-out button-theme" href="">Apply</a>
+			   <a class="hvr-radial-out button-theme" href="demandeDevie.php">Apply</a>
 			</div>
         </div>
         <div class="row" id="ComManage">
@@ -259,7 +258,7 @@
                 </div>
             </div>
             <div class="full ml-5 mb-5">
-			   <a class="hvr-radial-out button-theme" href="">Apply</a>
+			   <a class="hvr-radial-out button-theme" href="demandeDevie.php">Apply</a>
 			</div>
         </div>    
     </div>
