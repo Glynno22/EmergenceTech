@@ -66,7 +66,7 @@
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3>Devie Application Web & Mobile</h3>
+				     <h3>Devie Applications Webs & Mobiles</h3>
 				 </div>
 			  </div>
 		  </div>
