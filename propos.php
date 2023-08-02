@@ -39,7 +39,7 @@
 
 </head>
 
-<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+<body id="inner_page"  data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
     <!-- LOADER -->
     <div id="preloader">

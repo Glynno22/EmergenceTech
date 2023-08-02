@@ -5,5 +5,5 @@
         // echo("Connexion reussie");
     } catch (PDOException $e) {
         echo("Echec de connection");
-    }
+    } 
 ?>

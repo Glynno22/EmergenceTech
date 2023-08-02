@@ -234,7 +234,7 @@
         </div>
         <div class="row" id="ComManage">
             <div class="heading_main text_align_left ml-5">
-                <h2><span>Community Management </span> </h2>
+                <h2><span>Community Management</span></h2>
             </div>
         </div>
         <div class="row">

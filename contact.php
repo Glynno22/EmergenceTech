@@ -30,7 +30,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
-	<?php include "style.php";?>
+	<?php include "style.php";?> 
 
 
     <!--[if lt IE 9]>

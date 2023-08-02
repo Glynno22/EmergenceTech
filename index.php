@@ -107,7 +107,7 @@
                         </div>
 						<div class="full">
 						    <p>
-                            Bienvenue chez Emergence Tech, votre partenaire incontournable dans le monde numérique ! Notre entreprise 
+                            Bienvenue  chez Emergence Tech, votre partenaire incontournable dans le monde numérique ! Notre entreprise 
                             est spécialisée dans le développement d'applications Web et Mobile, la création de sites Web responsifs, 
                             le community management, ainsi que le design graphique, offrant ainsi une gamme complète de services pour 
                             répondre aux besoins variés de nos clients.
