@@ -11,7 +11,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
                         <li ><a class="nav-link active" href="index.php">Accueil</a></li>
-                        <li><a class="nav-link" href="presentation.php">Presentation & Services</a></li>
+                        <li><a class="nav-link" href="presentations.php">Presentation & Services</a></li>
                         <li><a class="nav-link" href="propos.php">À Propos</a></li>
                         <li><a class="nav-link" href="contact.php">Contactez nous</a></li>
                         <li><a class="nav-link" href="connect.php">Connexion</a></li>
