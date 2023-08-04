@@ -76,10 +76,12 @@
 						   <h2><span>Emergence</span> Technologie</h2>
                         </div>
 						<div class="full">
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-						  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-						  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+						  <p>
+						  Bienvenue chez Emergence Tech, votre partenaire incontournable dans le monde numérique ! Notre entreprise est 
+						  spécialisée dans le développement d'applications Web et Mobile, la création de sites Web responsifs, le community 
+						  management, ainsi que le design graphique, offrant ainsi une gamme complète de services pour répondre aux besoins 
+						  variés de nos clients. Nos réalisations sont ci-dessus
+						  </p>
 						</div>
                     </div>
                 </div>
