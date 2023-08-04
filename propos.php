@@ -106,20 +106,20 @@
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
-                       <img class="img-responsive" src="images/p1.png" alt="#" /> 
+                       <img class="img-responsive" src="images/RealWeb1.jpeg" alt="#" /> 
 					   <h4>design Graphique</h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p2.png" alt="#" />
-						<h4>Community Managment</h4>
+                        <img class="img-responsive" src="images/RealWeb2.jpeg" alt="#" />
+						<h4>design Graphique</h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p3.png" alt="#" />
-						<h4>Intermediate Accounting</h4>
+                        <img class="img-responsive" src="images/RealWeb3.jpeg" alt="#" />
+						<h4>design Graphique</h4>
                     </div>
                 </div>
             </div>
@@ -127,19 +127,19 @@
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
                        <img class="img-responsive" src="images/p1.png" alt="#" /> 
-					   <h4>design Graphique</h4>
+					   <h4>Devellopement Web</h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p2.png" alt="#" />
-						<h4>Community Managment</h4>
+                        <img class="img-responsive" src="images/RealDesign3.jpeg" alt="#" />
+						<h4>Devellopement Web</h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p3.png" alt="#" />
-						<h4>Intermediate Accounting</h4>
+                        <img class="img-responsive" src="images/RealDesign7.jpeg" alt="#" />
+						<h4>Devellopement Web</h4>
                     </div>
                 </div>
 			</div>
