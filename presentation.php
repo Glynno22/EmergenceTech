@@ -20,6 +20,28 @@
     <link rel="stylesheet" href="css/custom.css" />
     
     <?php include "style.php";?>
+    <!-- <style>
+        .imgs{
+            animation: bounce 1s infinite ease-out alternate-reverse ;
+        }
+        @keyframes bounce{
+            0%{
+                transform: translateY(0px);
+            }
+            25%{
+                transform: translateY(5px);
+            }
+            50%{
+                transform: translateY(10px);
+            }
+            75%{
+                transform: translateY(15px);
+            }
+            100%{
+                transform: translateY(20px);
+            }
+        }
+    </style> -->
 
 </head>
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -72,7 +94,7 @@
         </div>
         <div class="col-md-6">
              <div class="full">
-                 <img src="images/logobleu.png" alt="image">
+                 <img class="imgs" src="images/logobleu.png" alt="image">
              </div>
          </div>
     </div>

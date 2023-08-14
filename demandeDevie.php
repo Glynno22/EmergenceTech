@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Metas -->
-    <title>devieAPKWeb&Mobile</title>
+    <title>devieEmergence</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,8 +29,16 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
-
+	<style>
+		label{
+			padding-top: 20px;
+		}
+		input[type="checkbox"]{
+			padding-top: 20px;
+		}
+	</style>
 	<?php include "style.php";?>
+
 
 
     <!--[if lt IE 9]>
@@ -66,7 +74,7 @@
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3>Devie Applications Webs & Mobiles</h3>
+				     <h3>Demande De Devie Form</h3>
 				 </div>
 			  </div>
 		  </div>
@@ -76,56 +84,140 @@
 	<!-- end section -->
    
 	<!-- section -->
-    <div class="section layout_padding contact_section" style="background:#f6f6f6;">
-        <div class="container">
-               <div class="row">
-                 <div class="col-lg-8 col-md-8 col-sm-12">
-				    <div class="full float-right_img">
-                        <img src="images/logobleu.png" alt="Photo">
-                    </div>
-                 </div>
-				 <div class="col-lg-4 col-md-4 col-sm-12">
-				    <div class="contact_form">
-					<form action="contact.php" method="POST" style=" padding: 5px; border-radius: 15px;">
-						   <fieldset>
-						       <div class="full field">
-							      <input type="text" placeholder="Nom de L'entreprise / Particulier" name="nom" style="margin-bottom: 0px; outline: none;" />
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   <div class="full field">
-							      <input type="email" placeholder="Adresse Email" name="email" style="margin-bottom: 0px; outline: none;" />
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   <div class="full field">
-							      <input type="number" placeholder="Numéro téléphone" name="tel" style="margin-bottom: 0px; outline: none;" />
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   <div class="full field">
-							      <input type="number" placeholder="Dévies Que vous Proposez" name="devies" style="margin-bottom: 0px; outline: none;" />
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   
-							   <div class="full field" >
-							      <textarea placeholder="Déscription du Projet" name="message" style="margin-bottom: 0px; outline: none;"></textarea>
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   <div class="full field">
-								  <label for="">Importer un cahier de charge si Possible</label>
-							      <input type="file" name="tel" style="margin-bottom: 0px; outline: none;" />
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-							   <div class="full field">
-							      <div class="center"><input type="submit" value="Envoyer" style="margin-bottom: 0px; outline: none;"></div>
-								  <div style="width: 100%; height: 4px; background-image: linear-gradient(to right, #002247, #bde1e5); margin-top: 0;"></div>
-							   </div>
-						   </fieldset>
-						</form>
-					</div>
-                 </div>
-               </div>			  
-           </div>
-        </div>
+	<div class="container p-5">
+		<form class="row g-3">
+		<div class="col-md-6">
+				<label for="inputNom" class="form-label">Nom</label>
+				<input type="text" class="form-control" id="inputNom">
+			</div>
+			<div class="col-md-6">
+				<label for="inputEmail4" class="form-label">Email</label>
+				<input type="email" class="form-control" id="inputEmail4">
+			</div>
+			
+			<div class="col-12">
+				<label for="inputAddress" class="form-label">Address De l'entreprise</label>
+				<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			</div>
+			<div class="col-12">
+				<label for="inputAddress2" class="form-label">Address </label>
+				<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+			</div>
+			<div class="col-md-6">
+				<label for="inputCity" class="form-label">Description du Projet</label>
+				<textarea class="form-control" cols="30" id="inputCity"> </textarea>
+			</div>
+			<div class="col-md-4">
+				<label for="inputState" class="form-label">Nos Service</label>
+				<select id="inputState" class="form-select">
+				<option selected>Devellopement des Sites Web.</option>
+				<option>Design Graphique</option>
+				<option value="">Community Management</option>
+				<option value="">Devellopement apk Web et Mobile</option>
+				</select>
+			</div>
+			<div class="col-md-2">
+				<label for="inputZip" class="form-label">Ficher</label>
+				<input type="file" class="form-control" id="inputZip">
+			</div>
+			<!-- <div class="col-12">
+				<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="gridCheck">
+				<label class="form-check-label" for="gridCheck">
+					Check me out
+				</label>
+				</div>
+			</div> -->
+			<div class="col-12 pt-5">
+				<button type="submit" class="btn btn-primary">Faire Demande</button>
+			</div>
+		</form>
+	</div>
 	<!-- end section -->
+
+	<!-- section -->
+
+		
+
+		<!-- <div class="container mt-5 mb-5 bg-gray">
+			
+			<form class="row g-3 needs-validation" novalidate>
+				<div class="col-md-4">
+					<label for="validationCustom01" class="form-label">First name</label>
+					<input type="text" class="form-control" id="validationCustom01" placeholder="Nom" required>
+					<div class="valid-feedback">
+					Looks good!
+					</div>
+				</div>
+				<div class="col-md-4">
+					<label for="validationCustom02" class="form-label">Last name</label>
+					<input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+					<div class="valid-feedback">
+					Looks good!
+					</div>
+				</div>
+				<div class="col-md-4">
+					<label for="validationCustomUsername" class="form-label">Username</label>
+					<div class="input-group has-validation">
+					<span class="input-group-text" id="inputGroupPrepend">@</span>
+					<input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+					<div class="invalid-feedback">
+						Please choose a username.
+					</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<label for="validationCustom03" class="form-label">City</label>
+					<input type="text" class="form-control" id="validationCustom03" required>
+					<div class="invalid-feedback">
+					Please provide a valid city.
+					</div>
+				</div>
+				<div class="col-md-3">
+					<label for="validationCustom04" class="form-label">State</label>
+					<select class="form-select" id="validationCustom04" required>
+					<option selected disabled value="">Choose...</option>
+					<option>...</option>
+					</select>
+					<div class="invalid-feedback">
+					Please select a valid state.
+					</div>
+				</div>
+				<div class="col-md-3">
+					<label for="validationCustom05" class="form-label">Zip</label>
+					<input type="text" class="form-control" id="validationCustom05" required>
+					<div class="invalid-feedback">
+					Please provide a valid zip.
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+					<label class="form-check-label" for="invalidCheck">
+						Agree to terms and conditions
+					</label>
+					<div class="invalid-feedback">
+						You must agree before submitting.
+					</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<button class="btn btn-primary" type="submit">Submit form</button>
+				</div>
+			</form>
+		</div> -->
+
+		<div class="container ">
+			<form action="">
+				<div class="col-6">
+
+				</div>
+				
+			</form>
+		</div>
+
+	<!-- end section -->
+
 
 	
 	<?php @include "footer.php" ?>

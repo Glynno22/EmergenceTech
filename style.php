@@ -7,4 +7,5 @@
             font-weight: bold;
             font-size: 24px;
         } 
+        
     </style>
